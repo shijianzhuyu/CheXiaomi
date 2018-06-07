@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 24px;
+    width: 100%;
+}
+ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,button ,div{
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+#max{
+	margin:auto;
+	width: 1190px;
+}
+ a{
+    color:#FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #C4C4C4;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header{
+	
+	height:112px;
+	background-color: #242424;
+}
+.logo{
+	margin-left: 46px;
+    padding-top: 52px;
+    
+}
+
+.ind_nav {
+    float: left;
+    margin-top: -39px;
+    margin-left: 328px;
+}
+.ind_nav ,.nav-1,.nav-2,.nav-3,.nav-4,.nav-5 ,.nav-6{
+    float: left;
+}
+
+.ind_nav ,.nav-1,.nav-2,.nav-3,.nav-4,.nav-5,.nav-6,.current,.pla,.solu,.com,.dropdown-btn{
+    display: block;
+    padding:0 16px;
+    line-height: 50px;
+    
+    font-size: 16px;
+}
+
+/*下拉菜单*/
+.dropdown-btn {
+  text-decoration:none; 
+	display:inline-block;
+}
+
+.dropdown-menu{
+	width:200px;
+	list-style:none; margin:0; padding:0;
+	border:1px solid #aaa;
+	box-shadow:5px 5px 6px #000;
+	background-color: #2A2A2A;
+	margin-top: 20px;
+	position: absolute;
+    z-index: 99999;
+}
+.dropdown-menu>.item>:only-child:not(hr){
+	padding:6px 20px; width:160px;
+}
+.dropdown-menu>.item:hover{background:#ddd}
+.dropdown-menu.fade{
+	height:0; opacity:0; overflow:hidden;
+  transition:all .5s linear;
+}
+.dropdown-menu.in{ height:152px; opacity:1; }
+
+
+/*页尾*/
+.footers{
+	text-align: center;
+	max-width: 1190px;
+	height: 144px;
+}
+.logo2{
+	margin-top: 42px;
+}
+hr{
+	    margin-top: 16px;
+    width: 472px;
+}

@@ -1,0 +1,142 @@
+body{
+	background: #EBEBEB;
+}
+#min{
+	margin: auto;
+	width: 1190px;
+}
+.container{
+	width:100%;
+	height: 100%;
+	background: #EBEBEB;
+	
+}
+.title{
+	width: 1190px;
+	text-align: center;
+	padding-top: 78px;
+	background: #EBEBEB;
+}
+.title h1,.carcorder-title h1{
+	font-style: oblique;
+}
+.title p{
+	margin-top: 46px;
+	font-size: 16px;
+}
+/*obd产品列表*/
+
+.product,.carcorder-img{
+	margin-top: 70px;
+	width:1190px;
+	height:1232px;
+	display:flex;
+	flex-wrap:wrap;		
+justify-content:space-between;
+
+}
+.product div,.carcorder-img div{
+	width:345px;
+	height:388px;
+	margin-bottom: 30px;
+}
+.product div a img,.carcorder-img div a img{
+	width:345px;
+	height:388px;
+	border-radius: 10px;
+    box-shadow: 10px 10px 5px #c6ccc6;
+}
+.product >.p201,.p203w,.p402{
+	margin-left: 45px;
+}
+.product >.p203,.p401,.p203ws{
+	margin-right: 45px;
+}
+.product-title{
+	width: 1190px;
+	height:1412px;
+	background: #FFFFFF;
+	margin-top: 30px;
+}
+.product-title h1,.carcorder-product h1{
+	padding-top: 150px;
+    padding-left: 70px;
+}
+.obd-1{
+	margin-top: 70px;
+    margin-left: 25px;
+    width:67px;
+    height:86px;
+}
+.obd-2{
+	margin-left: 50px;
+	width: 68px;
+	height:72px;
+}
+.obd-3{
+	margin-left: 555px;
+	width: 78px;
+	height: 95px;
+}
+
+/*产品参数*/
+.parame-left,.carcorder-left{
+	float:left;width: 15%;
+	margin-top: 139px;
+	
+}
+.parame-right,.carcorder-right{
+	float:left;width: 85%;
+	margin-top: 40px;
+}
+.parame{
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 18px;
+    margin-top: 118px;
+    line-height: 55px;
+}
+.carcorder-list{
+	font-weight: bold;
+    font-style: oblique;
+    margin-left: 10px;
+    margin-top: 118px;
+  	line-height: 77px;
+}
+
+.parame-right .parame-table,.carcorder-right .carcorder-table{
+	text-align: center;
+	font-size: 5px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+	border: 1px solid #ddd;
+}
+.parame-table> tbody > tr:nth-of-type(odd),.carcorder-table> tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+    }
+.carcorder-title{
+	width: 1190px;
+	text-align: center;
+	padding-top: 150px;
+	background: #EBEBEB;
+}
+.carcorder-title>p{
+	margin-top: 46px;
+	font-size: 16px;
+}
+
+
+
+.carcorder-img>.a110,.x5,.v1s{
+	margin-left: 45px;
+}
+.carcorder-img>.x3,.m6s{
+	margin-right: 45px;
+}
+.carcorder-product{
+	width: 1190px;
+	height:1398px;
+	background: #FFFFFF;
+	margin-top: 30px;
+}

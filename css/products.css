@@ -1,0 +1,91 @@
+#solution{
+	width: 1190px;
+	margin: auto;
+}
+.obd-camcorder{
+	width: 1190px;
+	height:606px;
+	background: url(../img/products/OBD-Camcorder.jpg) no-repeat;
+	background-size: contain;
+}
+.camcorder-title{
+	width: 1190px;
+	height: 452px;
+	text-align: center;
+	padding-top: 109px;
+}
+.camcorder-title p{
+	 font-size: 18px;
+    line-height: 35px;
+}
+.camcorder-title img{
+	padding-top: 50px;
+}
+.vehicle-up,.trak,.driving {
+	width: 1190px;
+	height: 606px;
+
+}
+#vehicle-img{
+	position: absolute;
+	 
+}
+.s1{
+	position: relative;
+}
+#img1, #img2,#img3,#img5,#img6,#img7{
+	width: 1190px;
+	height: 606px;
+	position: absolute;
+}
+#img2,#img3,#img6,#img7{
+
+
+}
+.find{
+
+	width: 1190px;
+	height:607px;
+	background: url(../img/products/find.jpg) no-repeat;
+	background-size: contain;
+}
+.vehicle-title{
+	text-align: center;
+	width: 1190px;
+	height:451px;
+	background: #f3f3f3;
+}
+.vehicle-title img{
+	padding-top: 120px;
+}
+.vehicle-title hr{
+	width: 820px;
+}
+.vehicle-title p{
+	padding-top: 32px;
+	font-size: 18px;
+}
+.vehicle-title p b{
+	font-size: 30px;
+	
+}
+.driving{
+	background: url(../img/products/Driving.jpg) no-repeat;
+background-size: contain;
+}
+.obd-p203w,.camcorder-in,.hd-footer{
+	width: 1190px;
+	height: 526px;
+}
+.obd-p203w{
+	background: url(../img/products/OBD-P203W.jpg) no-repeat;
+	background-size: contain;
+}
+.camcorder-in{
+	background: url(../img/products/Camcorder-funnction.jpg) no-repeat;
+	background-size: contain;
+}
+.hd-footer{
+	background: url(../img/products/Footer.jpg);
+	background-size: contain;
+}

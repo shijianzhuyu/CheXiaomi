@@ -1,0 +1,129 @@
+*轮播图*/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+#pic {
+    position: relative;
+    width: 1190px;
+    height: 660px;
+    overflow: hidden;
+    left: 50%;
+     margin-left: -595px;
+}
+
+#list {
+    position: absolute;
+    z-index: 1;
+    width: 9100px;
+    height: 400px;
+}
+
+#list img {
+    float: left;
+    width: 1190px;
+    height: 660px;
+}
+
+#buttons {
+    position: absolute;
+    left: 572px;
+    bottom: 20px;
+    z-index: 2;
+    height: 10px;
+    width: 100px;
+}
+
+#buttons span {
+    float: left;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333;
+    cursor: pointer;
+}
+
+#buttons .on {
+    background: #0256B9;
+}
+
+.arrow {
+    position: absolute;
+    top: 330px;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+
+    cursor: pointer;
+    
+}
+#prev{
+	background: url(../img/banner/prev.png) no-repeat;
+}
+#next{
+	background: url(../img/banner/next.png) no-repeat;
+}
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
+}
+
+#pic:hover .arrow {
+    display: block;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
+/*商品图片*/
+.container{
+	width:1190px;
+	height:746px;
+	display:flex;
+	flex-wrap:wrap;		
+justify-content:space-between;
+}
+.container>div{
+	width: 595px;
+	height: 373px;
+}
+.container>div>a>img{
+	width: 595px;
+	height: 373px;
+}
+.footer{
+	max-width:1190px;
+	height:182px;
+	background-color: #F2F2F2;
+}
+.footer>a{
+	display: block;
+	text-decoration: none;
+	float:left;
+	margin-top: 51px;
+}
+.footer1{
+	margin-left:107px;
+}
+.footer2{
+	margin-left: 100px;
+}
+.footer3{
+	margin-left:  95px;
+}
